@@ -6,9 +6,13 @@
 } 
 
 .t-right{
-height: 180px;width:643px;background-color:blue ;position:relative;top: -379px;left: 344px;border:solid black;
+  height: 180px;width:643px;background-color:blue ;position:relative;top: -379px;left: 344px;border:solid black;
 }
 
+.b-right{
+  height: 220px;width: 634px;background-color: green;position:relative;top:-351px;left: 344px;border:solid black;
+
+}  
 #firstSquare {
   width: 110px;
   height:110px;
@@ -47,6 +51,8 @@ height: 180px;width:643px;background-color:blue ;position:relative;top: -379px;l
   100% { top:20px;left:20px; background: blueviolet}
 }
 
+
+
 .box2{
   height: 100px;width:100px;background-color:brown ;margin: 50px;top: 50px;left:50px;display:inline-block;border:solid black;
 }
@@ -67,4 +73,22 @@ height: 180px;width:643px;background-color:blue ;position:relative;top: -379px;l
 @keyframes roller1 {
   0% {transform: rotatey(0deg);}
   100% {transform: rotatey(360deg);}
+}
+
+.third-box {
+  width: 100px;
+  height: 50px;
+  background: red;
+  position: relative;
+  border:solid black;
+
+  animation: move3 5s infinite;
+}
+
+@keyframes move3 {
+  0%   {top: 0px; left: 0px; background: red;}
+  25%  {top: 0px; left: 500px; background: blue;}
+  50%  {top: 100px; left: 500px; background: yellow;}
+  75%  {top: 100px; left: 0px; background: black;}
+  100% {top: 0px; left: 0px; background: red;}
 }
