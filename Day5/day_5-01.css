@@ -1,5 +1,5 @@
 .main {
-  background-color: beige; width: 1000px; height: 600px; top: 40px;;border: 2px solid black;left:163px;position:absolute;
+  background-color: beige; width: 1000px; height: 600px; top: 40px;;border: 2px solid black;left:163px;position:absolute; text-align: center;
  }
 .left{
   height: 429px;width:300px;background-color: aquamarine;position:relative;top:50px;left:20px;border:solid black;
@@ -10,7 +10,7 @@
 }
 
 .b-right{
-  height: 220px;width: 634px;background-color: green;position:relative;top:-351px;left: 344px;border:solid black;
+  height: 210px;width: 634px;background-color: green;position:relative;top:-351px;left: 344px;border:solid black;
 
 }  
 #firstSquare {
@@ -41,7 +41,7 @@
   0%   {top:0px;bottom: 50px;  background: darkcyan;}
 
  
-  100% {top:200px;bottom:50px; background: darkorchid;}
+  100% {top:300px;bottom:50px; background: darkorchid;}
 }
 
 @keyframes move2 {
