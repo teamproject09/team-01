@@ -77,8 +77,8 @@
 
 .third-box {
   width: 100px;
-  height: 50px;
-  background: red;
+  height: 40px;
+  background:plum;
   position: relative;
   border:solid black;
 
@@ -86,9 +86,9 @@
 }
 
 @keyframes move3 {
-  0%   {top: 0px; left: 0px; background: red;}
-  25%  {top: 0px; left: 500px; background: blue;}
-  50%  {top: 100px; left: 500px; background: yellow;}
-  75%  {top: 100px; left: 0px; background: black;}
-  100% {top: 0px; left: 0px; background: red;}
+  0%   {top: 0px; left: 0px; background: plum;}
+  25%  {top: 0px; left: 530px; background: darkcyan;}
+  50%  {top: 165px; left: 530px; background: darkorchid;}
+  75%  {top: 165px; left: 0px; background: darksalmon;}
+  100% {top: 0px; left: 0px; background: plum;}
 }
